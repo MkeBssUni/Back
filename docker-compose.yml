@@ -13,7 +13,7 @@ services:
             - ./mysql-data:/var/lib/mysql
     app:
         build:
-           context: ./
+           context: .
            dockerfile: Dockerfile
         environment:
             SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/autos-10a
