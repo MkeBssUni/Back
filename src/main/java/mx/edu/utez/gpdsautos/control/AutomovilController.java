@@ -14,6 +14,7 @@ public class AutomovilController {
     @Autowired
     private AutomovilService automovilService;
 
+    
     @GetMapping
     public List<Automovil> getAllAutomoviles() {
         return automovilService.getAllAutomoviles();
