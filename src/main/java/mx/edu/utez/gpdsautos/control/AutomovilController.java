@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/automoviles")
+@RequestMapping("/api/autos")
 public class AutomovilController {
     @Autowired
     private AutomovilService automovilService;
 
-    
+
     @GetMapping
     public List<Automovil> getAllAutomoviles() {
         return automovilService.getAllAutomoviles();
