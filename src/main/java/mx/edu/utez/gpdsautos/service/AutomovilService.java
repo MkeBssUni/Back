@@ -15,6 +15,7 @@ public class AutomovilService {
     private AutomovilRepository automovilRepository;
 
     public List<Automovil> getAllAutomoviles() {
+        
         return automovilRepository.findAll();
     }
 
