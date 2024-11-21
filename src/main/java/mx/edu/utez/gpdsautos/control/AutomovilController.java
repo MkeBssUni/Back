@@ -11,9 +11,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/automoviles")
 public class AutomovilController {
-
-
-    
     @Autowired
     private AutomovilService automovilService;
 
